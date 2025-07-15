@@ -1,11 +1,9 @@
-import Hello from "@/app/components/hello";
-
 export default function Home() {
   console.log("im here");
   return (
     <>
-      <h1 className="text-green-500">Welcome here</h1>
-      <Hello />
+      <h1 className="h1-bold font-space-grotesk">WWElcome check style</h1>
+      <h1 className="h1-bold font-inter">WWElcome check style, font Inter</h1>
     </>
   );
 }
